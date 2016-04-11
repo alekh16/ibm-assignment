@@ -39,3 +39,68 @@
     display: none;
   }
 }
+.landing-pg{
+    color: white !important;
+}
+.landing-pg>div>h1{
+    font-weight: 700;
+    font-size: 70px
+}
+.intro{
+    font-size: 18px;
+}
+.btn-styled{
+    color:white;
+    background-color: blue;
+    border: none;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    padding: 6px;
+}
+.btn-default:hover{
+    background-color: blue;
+    color:white;
+}
+a{
+    color:white;
+}
+
+.glyphicon{
+    vertical-align: text-top;
+}
+.marketing{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.product-info-img{
+    width: 100%;
+    height: 100%;
+}
+
+.table-disp{
+    display: table;
+}
+
+.cell-disp{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.prod-head{
+    height: 100px;
+    font-family: rockwell;
+}
+.f70{
+    font-size: 70px;
+}
