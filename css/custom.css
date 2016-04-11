@@ -101,6 +101,66 @@ a{
     height: 100px;
     font-family: rockwell;
 }
+
+.prod-detail-lhs{
+    background-image: url("..//images/product-rhs.jpg");
+    height: 322px;
+}
+.prod-detail-rhs{
+    height: 322px;
+}
 .f70{
     font-size: 70px;
+}
+.ghost-button{
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
+.over-hide{
+    overflow: hidden;
+}
+.prod-feat{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.prod-feat>div>p{
+    font-weight: 600;
+    text-align: left;
+}
+.modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+footer>div{
+    margin: 15px 60px 0px 60px;    
+}
+footer{
+    background-color: rgba(64,32,93,125);
+    color:white;
+    height: 70px;
+    line-height: 70px;   
+}
+
+.carousel-caption>h1>span, .carousel-caption>p>span{
+    background-color: rgba(0,0,0,0.5);
+}
+.prod-span{
+    position: relative;
+    font-weight: 700;
+    font-size: 22px;
 }
