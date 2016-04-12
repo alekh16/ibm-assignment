@@ -1,40 +1,25 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-        <head>
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="http://www.ibm.com/favicon.ico">
-
         <title>Super Shoes, Inc</title>
-
-        <!-- Bootstrap core CSS -->
         <link href="./css/bootstrap.min.css" rel="stylesheet">
-
         <link href="./css/animate.css" rel="stylesheet">
-
+        <link href="./css/custom.css" rel="stylesheet">
+        <link href="./css/carousel.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-        <script src="./js/function.js"></script>
-
+        <script type="text/javascript" src="./js/instafeed.min.js"></script>
+        <script type="text/javascript" src="./js/function.js"></script>
         <script>
             new WOW().init();
         </script>
-
-
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <!--link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" -->
-
-        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-        <!--script src="../../assets/js/ie-emulation-modes-warning.js"></script -->
+        <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -42,29 +27,26 @@ and open the template in the editor.
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <!-- Custom styles for this template -->
-        <link href="./css/carousel.css" rel="stylesheet">
-        <link href="./css/custom.css" rel="stylesheet">
     </head>
     <body>
         <div class="fullscreen-bg">
             <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-                <source src="video2.mp4" type="video/mp4">
+                <source src="./video/land-bg.mp4" type="video/mp4">
             </video>
         </div>
-        <div class="container text-center landing-pg">
-            <div>
+        <div class="container text-center landing-pg ind-content">
+            <div class="wow bounceIn">
                 <h1>
                     ON YOUR MARKS
                 </h1>
             </div>
-            <div class="intro">
+            <div class="intro wow slideInLeft">
                 <p>
                     Chase your dreams with this unstoppable comfort - Nike Free Flyknit.
                 </p>
-            
-                <!--<a href="./product.html" type="button" class="btn btn-default btn-group btn-styled">Explore<span class="glyphicon glyphicon-menu-right"></span></a>
-                --><a class="ghost-button" href="./product.html">Warm It Up</a>
+            </div>
+            <div class="wow pulse">
+                <a class="ghost-button" href="./product.html">Warm It Up</a>
             </div>
         </div> 
     </body>

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,10 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="http://www.ibm.com/favicon.ico">
-
         <title>Super Shoes, Inc</title>
-
-        <!-- Bootstrap core CSS -->
         <link href="./css/bootstrap.min.css" rel="stylesheet">
         <link href="./css/animate.css" rel="stylesheet">
         <link href="./css/custom.css" rel="stylesheet">
@@ -33,8 +28,7 @@
         <![endif]-->
 
     </head>
-    <!-- NAVBAR
-    ================================================== -->
+    
     <body>
         <div id="home" class="navbar-wrapper">
             <div class="container">
@@ -63,10 +57,7 @@
 
             </div>
         </div>
-
-
-        <!-- Carousel
-        ================================================== -->
+        
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -114,38 +105,28 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div><!-- /.carousel -->
+        </div>
 
-        <!-- Marketing messaging and featurettes
-        ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+        
         <div class="container table-disp prod-head col-lg-12 col-md-12 text-center">
             <div class="cell-disp f70"> 
                 <p class='wow bounceInUp'>See What's Inside</p>
             </div>
         </div>
         <div id="features" class="container marketing">
-
-            <!-- Three columns of text below the carousel -->
             <div class="row text-center">
                 <div class="prod-detail-rhs col-lg-6 col-md-6 wow bounceInUp no-padding">
                     <img class="product-info-img"src="images/prod-desc-2.jpeg" alt="Generic placeholder image">
-                </div><!-- /.col-lg-4 -->
+                </div>
                 <div class="prod-detail-lhs col-lg-6 col-md-6 wow bounceInUp table-disp no-padding">
                     <div class="cell-disp">
                         <h2>Incredibly Light</h2>
                         <p>Nike Flyknit replaces multiple stitched or glued panels with ultra-light yarn to dramatically reduce weight.</p>
                         <p><a class="ghost-button gbclr" href="#" role="button" data-toggle="modal" data-target="#incrediblyLightDetails">View details &raquo;</a></p>
                     </div>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
+                </div>
+            </div>
 
-
-            <!-- START THE FEATURETTES -->
-
-            <!--<hr class="featurette-divider">-->
-
-            <!-- Three columns of text below the carousel -->
             <div class="row text-center">
                 <div class="prod-detail-lhs col-lg-6 col-md-6 wow bounceInUp table-disp no-padding">
                     <div class="cell-disp">
@@ -156,22 +137,42 @@
                 </div>
                 <div class="prod-detail-rhs col-lg-6 col-md-6 wow bounceInUp no-padding">
                     <img class="product-info-img"src="images/prod-desc-1.jpeg" alt="Generic placeholder image">
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
+                </div>
+            </div>
 
-            <!-- Three columns of text below the carousel -->
             <div class="row text-center">
                 <div class="prod-detail-rhs col-lg-6 col-md-6 wow bounceInUp no-padding">
                     <img class="product-info-img"src="images/prod-desc-2.jpeg" alt="Generic placeholder image">
-                </div><!-- /.col-lg-4 -->
+                </div>
                 <div class="prod-detail-lhs col-lg-6 col-md-6 wow bounceInUp table-disp no-padding">
                     <div class="cell-disp">
                         <h2>INCREDIBLY PRECISE</h2>
                         <p>Nike Flyknit is precision-engineered stitch by stitch to create targeted zones of stretch and support for adaptive performance.</p>
                         <p><a class="ghost-button gbclr" href="#" role="button" data-toggle="modal" data-target="#incrediblyPreciseDetails">View details &raquo;</a></p>
                     </div>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
+                </div>
+            </div>
+            
+            
+            <div id="prod-info" class="toscroll row table-disp prod-head col-lg-12 col-md-12 text-center">
+                <div class="cell-disp f70"> 
+                    <p class='wow zoomIn'>Three Different Colors</p>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div>
+                    <img id="theImage" src="./images/blue1.jpg" style="width: 300px; height: 170px">
+                    <p>
+                        <a class="btn btn-lg btn-primary btn-bgc-blue"  role="button" onclick="pictureChangeBlue()">Blue</a>
+                        <a class="btn btn-lg btn-primary btn-bgc-red"  role="button" onclick="pictureChangeRed()">Red</a>
+                        <a class="btn btn-lg btn-primary btn-bgc-black"  role="button" onclick="pictureChangeBlack()">Black</a>
+                    </p>
+                </div>
+            </div>
+            
+            
+            
+            
             <div id="details" class="container table-disp prod-head col-lg-12 col-md-12 text-center">
                 <div class="cell-disp f70"> 
                     <p class='wow zoomIn'>Key Benifits</p>
@@ -186,39 +187,22 @@
             <div class="row text-center">
                 <img class="product-info-img"src="images/nike3.jpg">
             </div>
-            <!-- /END THE FEATURETTES -->
-
-            <!Colors-->
-            <div id="prod-info" class="toscroll row table-disp prod-head col-lg-12 col-md-12 text-center">
-                <div class="cell-disp f70"> 
-                    <p class='wow zoomIn'>Pick Your Color</p>
-                </div>
-            </div>
-            <div class="container text-center">
-                <div>
-                    <img id="theImage" src="./images/blue1.jpg" style="width: 300px; height: 170px">
-                    <p>
-                        <a class="btn btn-lg btn-primary btn-bgc-blue"  role="button" onclick="pictureChangeBlue()">Blue</a>
-                        <a class="btn btn-lg btn-primary btn-bgc-red"  role="button" onclick="pictureChangeRed()">Red</a>
-                        <a class="btn btn-lg btn-primary btn-bgc-black"  role="button" onclick="pictureChangeBlack()">Black</a>
-                    </p>
-                </div>
-            </div>
-            <!--End Colors-->
-
-            <!--Product Features-->
-            <div class="text-center over-hide">
+            
+            
+            <div class="container text-center over-hide">
                 <h1>
                     Product Features
                 </h1>
-                <div class="over-hide prod-feat table-disp">
-                    <div class=" wow fadeInLeft col-lg-6 col-md-6 cell-disp">
+                <div class="row text-center">
+                <div class=" prod-feat col-lg-6 col-md-6 wow bounceInUp table-disp no-padding">
+                    <div class="cell-disp">
                         <p>
                             Once the calendar enters the month of April it's presumed that warmer weather is in fact just around the corner. Temperatures continue to climb and Spring-wear replaces winter wardrobe. April 1st is notoriously known as April Fool's day but this year NIKE is not joking around with a brand new release that day dubbed the "Temperature" pack. This release features two outstanding renditions of classic tennis and running silhouettes.                        
                         </p>
                     </div>
-                    <div class="col-lg-6 col-md-6 cell-disp">
-                        <ul class="wow fadeInRight">
+                </div>
+                <div class=" col-lg-6 col-md-6 wow bounceInUp table-disp no-padding">
+                        <ul class="cell-disp wow fadeInRight">
 
                             <li>Lightweight, seamless textile upper for remarkable comfort and support</li>
 
@@ -235,18 +219,15 @@
                             <li>Adaptive upper webbing for lightweight locking down of the midfoot</li>
 
                         </ul>
-                    </div>
                 </div>
             </div>
-            <!-- End of Product Features-->
-            <!-- FOOTER -->
-
-
-        </div><!-- /.container -->
+        </div>
+            
+        </div>
         <footer>
             <div>    
                 <span class="pull-right"><a href="#home" class="smoothScroll">Back to top</a></span>
-                <span>&copy; 2016 Super Shoes, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></span>
+                <span>&copy; 2016 Super Shoes, Inc. &middot; <a href="#">Privacy</a> &middot;</span>
             </div>    
         </footer>
 
@@ -271,6 +252,7 @@
 
             </div>
         </div>
+        
         <!-- Modal -->
         <div id="incrediblyStrongDetails" class="modal fade" role="dialog">
             <div class="modal-dialog">
@@ -290,6 +272,7 @@
 
             </div>
         </div>
+        
         <!-- Modal -->
         <div id="incrediblyPreciseDetails" class="modal fade" role="dialog">
             <div class="modal-dialog">
@@ -309,16 +292,11 @@
 
             </div>
         </div>
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
         <script src="./js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./js/smoothscroll.js"></script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-        <!-- script src="../../assets/js/vendor/holder.min.js"></script-->
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <!--script src="../../assets/js/ie10-viewport-bug-workaround.js"></script-->
     </body>
+    
 </html>
